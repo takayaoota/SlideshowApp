@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2852034027C8B0E000FC6177 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2852033F27C8B0E000FC6177 /* ResultViewController.swift */; };
 		28D0E34327C4B77200D2397E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0E34227C4B77200D2397E /* AppDelegate.swift */; };
 		28D0E34527C4B77200D2397E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0E34427C4B77200D2397E /* SceneDelegate.swift */; };
 		28D0E34727C4B77200D2397E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0E34627C4B77200D2397E /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2852033F27C8B0E000FC6177 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		28D0E33F27C4B77200D2397E /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D0E34227C4B77200D2397E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28D0E34427C4B77200D2397E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				28D0E34227C4B77200D2397E /* AppDelegate.swift */,
 				28D0E34427C4B77200D2397E /* SceneDelegate.swift */,
 				28D0E34627C4B77200D2397E /* ViewController.swift */,
+				2852033F27C8B0E000FC6177 /* ResultViewController.swift */,
 				28D0E34827C4B77200D2397E /* Main.storyboard */,
 				28D0E34B27C4B77600D2397E /* Assets.xcassets */,
 				28D0E34D27C4B77600D2397E /* LaunchScreen.storyboard */,
@@ -103,7 +106,7 @@
 				};
 			};
 			buildConfigurationList = 28D0E33A27C4B77200D2397E /* Build configuration list for PBXProject "SlideshowApp" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -141,6 +144,7 @@
 				28D0E34727C4B77200D2397E /* ViewController.swift in Sources */,
 				28D0E34327C4B77200D2397E /* AppDelegate.swift in Sources */,
 				28D0E34527C4B77200D2397E /* SceneDelegate.swift in Sources */,
+				2852034027C8B0E000FC6177 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

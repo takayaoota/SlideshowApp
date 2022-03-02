@@ -106,6 +106,13 @@ class ViewController: UIViewController {
                  = segue.destination as! ResultViewController
 
             resultViewController.image = imageArray[nowIndex]
+        
+        // 停止時の処理を実装
+        // タイマーを停止する
+        timer.invalidate()
+
+        // タイマーを削除しておく(timer.invalidateだけだとtimerがnilにならないため)
+        timer = nil
     }
     
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
